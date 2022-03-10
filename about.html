@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>University Website</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,400;0,600;0,700;1,100;1,200;1,600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+      integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <section class="sub-header">
+      <nav>
+        <a href="index.html"><img src="./eduford_img/logo.png" alt="" /></a>
+        <div id="nav-links" class="nav-links">
+          <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+          <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+            <li><a href="course.html">COURSES</a></li>
+            <li><a href="blog.html">BLOG</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+          </ul>
+        </div>
+        <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+      </nav>
+
+      <div class="text-box">
+        <h1>About Us</h1>
+      </div>
+    </section>
+
+    <!-- About content -->
+    <section class="about-us">
+      <div class="row">
+        <div class="about-col">
+          <h1>We Are Providing The Best Services For Your Education</h1>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique
+            ipsum, quae architecto dolores voluptatem facilis, minima optio ipsa
+            eum at doloremque tempore nemo hic? Accusantium possimus impedit
+            exercitationem debitis alias!
+          </p>
+          <a class="btn2" href="">Explore Now</a>
+        </div>
+        <div class="about-col">
+          <img src="./eduford_img/background.jpg" alt="" />
+        </div>
+      </div>
+    </section>
+
+    <!-- footer -->
+    <section class="footer">
+      <h4>About Us</h4>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit sint
+        laboriosam possimus <br />
+        quia obcaecati quam explicabo beatae atque magni a nulla incidunt
+        nesciunt voluptas sapiente, sit consequatur quis dolor nihil.
+      </p>
+      <div class="icons">
+        <i class="fa-brands fa-facebook"></i>
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-telegram"></i>
+        <i class="fa-brands fa-linkedin"></i>
+        <i class="fa-brands fa-twitter"></i>
+        <i class="fa-brands fa-youtube"></i>
+        <i class="fa-brands fa-whatsapp"></i>
+      </div>
+      <p>Made With <i class="fa-solid fa-heart"> by Muhammad Siam</i></p>
+    </section>
+
+    <!-- ---------javascript ---------- -->
+    <script>
+      var navLinks = document.getElementById("nav-links")
+      function showMenu() {
+        navLinks.style.right = "0"
+      }
+      function hideMenu() {
+        navLinks.style.right = "-200px"
+      }
+    </script>
+  </body>
+</html>
