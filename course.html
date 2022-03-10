@@ -19,6 +19,11 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <!-- Animate css -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
   </head>
   <body>
     <section class="sub-header">
@@ -26,7 +31,7 @@
         <a href="index.html"><img src="./eduford_img/logo.png" alt="" /></a>
         <div id="nav-links" class="nav-links">
           <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
-          <ul>
+          <ul class="animate__animated animate__zoomIn">
             <li><a href="index.html">HOME</a></li>
             <li><a href="about.html">ABOUT</a></li>
             <li><a href="course.html">COURSES</a></li>
@@ -38,34 +43,36 @@
       </nav>
 
       <div class="text-box">
-        <h1>Courses</h1>
+        <h1 class="animate__animated animate__zoomIn">Courses</h1>
       </div>
     </section>
 
     <!-- Course content -->
 
     <section class="course">
-      <h1>Our Courses</h1>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+      <h1 class="animate__animated animate__zoomIn">Our Courses</h1>
+      <p class="animate__animated animate__backInRight">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+      </p>
 
       <div class="row">
         <div class="course-col">
-          <h3>Intermediat</h3>
-          <p>
+          <h3 class="animate__animated animate__zoomIn">Intermediat</h3>
+          <p class="animate__animated animate__backInRight">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus,
             dolorem.
           </p>
         </div>
         <div class="course-col">
-          <h3>Degree</h3>
-          <p>
+          <h3 class="animate__animated animate__zoomIn">Degree</h3>
+          <p class="animate__animated animate__backInRight">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus,
             dolorem.
           </p>
         </div>
         <div class="course-col">
-          <h3>Post Graduation</h3>
-          <p>
+          <h3 class="animate__animated animate__zoomIn">Post Graduation</h3>
+          <p class="animate__animated animate__backInRight">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus,
             dolorem.
           </p>
@@ -76,8 +83,8 @@
     <!-- facilities -->
 
     <section class="facilities">
-      <h1>Our Facilities</h1>
-      <p>
+      <h1 class="animate__animated animate__zoomIn">Our Facilities</h1>
+      <p class="animate__animated animate__backInRight">
         Lorem ipsum dolor sit amet consectetur, adipisicing elit. Velit nulla
         consectetur qui est veniam eos impedit ratione, veritatis pariatur nemo
         optio? Ducimus doloremque nihil quasi enim cumque debitis a iusto.
@@ -85,24 +92,26 @@
       <div class="row">
         <div class="facilities-col">
           <img src="./eduford_img/library.png" alt="" />
-          <h3>Woorld Class Library</h3>
-          <p>
+          <h3 class="animate__animated animate__zoomIn">
+            Woorld Class Library
+          </h3>
+          <p class="animate__animated animate__backInRight">
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores,
             doloremque!
           </p>
         </div>
         <div class="facilities-col">
           <img src="./eduford_img/basketball.png" alt="" />
-          <h3>Large Playground</h3>
-          <p>
+          <h3 class="animate__animated animate__zoomIn">Large Playground</h3>
+          <p class="animate__animated animate__backInRight">
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores,
             doloremque!
           </p>
         </div>
         <div class="facilities-col">
           <img src="./eduford_img/cafeteria.png" alt="" />
-          <h3>Healthy Food</h3>
-          <p>
+          <h3 class="animate__animated animate__zoomIn">Healthy Food</h3>
+          <p class="animate__animated animate__backInRight">
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores,
             doloremque!
           </p>
@@ -112,14 +121,14 @@
 
     <!-- footer -->
     <section class="footer">
-      <h4>About Us</h4>
-      <p>
+      <h4 class="animate__animated animate__backInUp">About Us</h4>
+      <p class="animate__animated animate__backInUp">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit sint
         laboriosam possimus <br />
         quia obcaecati quam explicabo beatae atque magni a nulla incidunt
         nesciunt voluptas sapiente, sit consequatur quis dolor nihil.
       </p>
-      <div class="icons">
+      <div class="icons animate__animated animate__backInUp">
         <i class="fa-brands fa-facebook"></i>
         <i class="fa-brands fa-instagram"></i>
         <i class="fa-brands fa-telegram"></i>
@@ -128,7 +137,9 @@
         <i class="fa-brands fa-youtube"></i>
         <i class="fa-brands fa-whatsapp"></i>
       </div>
-      <p>Made With <i class="fa-solid fa-heart"> by Muhammad Siam</i></p>
+      <p animate__animated animate__backInUp>
+        Made With <i class="fa-solid fa-heart"> by Muhammad Siam</i>
+      </p>
     </section>
 
     <!-- ---------javascript ---------- -->
