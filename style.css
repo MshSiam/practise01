@@ -515,7 +515,7 @@ form textarea {
   color: #555;
   font-weight: 500;
 }
-/* responsive for mobile devices */
+/* /////// ////// responsive for mobile devices */
 
 @media (max-width: 700px) {
   .text-box h1 {
@@ -533,7 +533,7 @@ form textarea {
     right: -200px;
     transition: 1s;
     text-align: left;
-    z-index: 0;
+    z-index: 10;
   }
 
   nav .fa-solid {
